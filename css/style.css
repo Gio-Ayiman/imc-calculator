@@ -41,7 +41,7 @@ body {
   background: #c4c4c4;
 }
 
-#div-form input{
+#div-form input {
   padding-left: 7px;
 }
 
@@ -58,8 +58,8 @@ body {
   transition: background-color 0.5s;
 }
 
-#mon-boutton:hover{
-    background-color: #00ac45;
+#mon-boutton:hover {
+  background-color: #00ac45;
 }
 
 #div-content-result {
@@ -80,7 +80,7 @@ body {
   align-items: center;
 }
 
-#div-paragraph{
+#div-paragraph {
   width: 94%;
   margin: 0 auto;
   text-align: center;
@@ -98,24 +98,22 @@ body {
   font-size: 1.2em;
 }
 
-#span-text-resultat{
-    font-size: 1em;
-    transition: text-transform 1s;  
+#span-text-resultat {
+  font-size: 1em;
+  transition: text-transform 1s;
 }
 
-@media only screen and (min-width: 768px){
-  body{
+@media only screen and (min-width: 768px) {
+  body {
     flex-direction: row;
     align-items: center;
   }
-  
+
   #div-content-form {
     width: 48vw;
   }
 
-  #div-content-result{
+  #div-content-result {
     width: 48vw;
   }
-  
-
 }
