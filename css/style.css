@@ -12,9 +12,9 @@
 
 body {
   display: flex;
-  flex-direction: column;
   height: 100vh;
-  background: rgba(196, 196, 196, 0.69);
+  flex-direction: column;
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%) ;
 }
 
 #div-content-form {
