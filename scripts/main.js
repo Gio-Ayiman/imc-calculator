@@ -25,10 +25,7 @@ function afficheResultat() {
   let paragraph = document.getElementById("span-resultat");
   let span = document.getElementById("span-text-resultat");
   let cercle = document.getElementById("cercle-resultat");
-  const myDivMessage = document.getElementById("div-paragraph");
   const imc = getImc();
-
-  myDivMessage.style.visibility = "visible";
 
   if (imc != undefined) {
     paragraph.innerHTML = imc;
