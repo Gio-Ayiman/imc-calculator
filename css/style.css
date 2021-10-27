@@ -41,6 +41,10 @@ body {
   background: #c4c4c4;
 }
 
+#div-form input{
+  padding-left: 7px;
+}
+
 #mon-boutton {
   padding: 3%;
   margin: 3vh 35% 0 35%;
