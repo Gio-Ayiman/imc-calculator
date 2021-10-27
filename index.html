@@ -5,7 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="./img/favicon.jpg " type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./img/ico/PNG/Calque 448.png"
+      type="image/x-icon"
+    />
+
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./img/ico/PNG/Calque 4ldpi.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="black" />
+    <meta name="theme-color" content="white" />
+
+    <script>
+      window.addEventListener("load", () => {
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("/sw.js");
+        }
+      });
+    </script>
+
     <title>Mon IMC</title>
   </head>
   <body>
@@ -21,7 +39,7 @@
       </div>
     </div>
     <div id="div-content-form">
-      <div id="div-form" draggable="true">
+      <div id="div-form">
         <form action="" id="mon-formulaire">
           <label for="input-age" id="label-age">Age</label>
           <input type="number" id="input-age" />

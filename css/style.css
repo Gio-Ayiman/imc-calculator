@@ -18,7 +18,7 @@ body {
 }
 
 #div-content-form {
-  width: 96vw;
+  width: 100vw;
   margin: 0 auto;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 #div-content-result {
-  width: 96vw;
+  width: 100vw;
   margin-bottom: 8vh;
 }
 
@@ -111,10 +111,10 @@ body {
   }
 
   #div-content-form {
-    width: 48vw;
+    width: 50vw;
   }
 
   #div-content-result {
-    width: 48vw;
+    width: 50vw;
   }
 }

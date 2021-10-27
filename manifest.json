@@ -1,0 +1,48 @@
+{
+    "name": "Imc Calculatrice",
+    "short_name": "Imc",
+    "start_url": "/?source=pwa",
+    "background_color": "#c4c4c4",
+    "opacity": "0.6",
+    "theme_color": "white",
+    "orientation": "portrait-primary",
+    "display": "standalone",
+    "icons": [
+        {
+          "src": "./img/ico/PNG/Calque448.png",
+          "type": "image/png",
+          "sizes": "48x48"
+        },
+        {
+            "src": "./img/ico/PNG/Calque472.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+          {
+            "src": "./img/ico/PNG/Calque496.png",
+            "type": "image/png",
+            "sizes": "96x96"
+          },
+          {
+            "src": "./img/ico/PNG/Calque4144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+          },
+          {
+            "src": "./img/ico/PNG/Calque4168.png",
+            "type": "image/png",
+            "sizes": "168x168"
+          },
+          {
+            "src": "./img/ico/PNG/Calque4192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+          },
+          {
+            "src": "./img/ico/PNG/Calque4ldpi.png",
+            "type": "image/png",
+            "sizes": "768x768"
+          }
+    ]
+}
