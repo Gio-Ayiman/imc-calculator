@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.jpg " type="image/x-icon" />
+    <title>Mon IMC</title>
+  </head>
+  <body>
+    <div id="div-content-result">
+      <div id="cercle-resultat">
+        <span id="span-resultat">00,00</span>
+      </div>
+      <div id="div-paragraph">
+        <p id="paragraph-text">
+          Vous êtes en
+          <span id="span-text-resultat">insuffisance pondérale</span>
+        </p>
+      </div>
+    </div>
+    <div id="div-content-form">
+      <div id="div-form" draggable="true">
+        <form action="" id="mon-formulaire">
+          <label for="input-age" id="label-age">Age</label>
+          <input type="number" id="input-age" />
+          <label for="input-poids" id="label-poids">Poids</label>
+          <input type="number" placeholder="en kg" id="input-poids" />
+          <label for="select-sexe">Sexe</label>
+          <select name="sexe" id="select-sexe">
+            <option value="homme">Homme</option>
+            <option value="femme">Femme</option>
+            <option value="indifferent">Indifférent</option>
+          </select>
+          <label for="input-taille" id="label-taille">Taille</label>
+          <input type="number" id="input-taille" placeholder="en cm" />
+        </form>
+        <button type="button" id="mon-boutton" onclick="afficheResultat()">
+          calculer
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="scripts/main.js"></script>
+</html>
