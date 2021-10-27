@@ -59,10 +59,9 @@ body {
 }
 
 #div-content-result {
-  height: 60%;
+  height: 40vh;
   width: 96vw;
   margin-bottom: 4vh;
-  background-color: pink;
 }
 
 #cercle-resultat {
