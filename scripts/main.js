@@ -25,29 +25,32 @@ function afficheResultat() {
   let paragraph = document.getElementById("span-resultat");
   let span = document.getElementById("span-text-resultat");
   let cercle = document.getElementById("cercle-resultat");
+  const myMessage = document.getElementById("welcome-message");
   const imc = getImc();
+
+  myMessage.style.display = "none";
 
   if (imc != undefined) {
     paragraph.innerHTML = imc;
   }
 
   if (imc < 18.5) {
-    span.innerHTML = "insuffisance pondérale";
+    span.innerHTML = "Vous êtes en insuffisance pondérale";
     cercle.style.backgroundColor = "#FF7A00";
   } else if (imc >= 18.5 && imc <= 25) {
-    span.innerHTML = "corpulence normale";
+    span.innerHTML = "Vous êtes en corpulence normale";
     cercle.style.backgroundColor = "#00cd52";
   } else if (imc > 25 && imc <= 30) {
-    span.innerHTML = "surpoids";
+    span.innerHTML = "Vous êtes en surpoids";
     cercle.style.backgroundColor = "#FF7A00";
   } else if (imc > 30 && imc <= 35) {
-    span.innerHTML = "obésité modérée";
+    span.innerHTML = "Vous êtes en obésité modérée";
     cercle.style.backgroundColor = "red";
   } else if (imc > 35 && imc <= 40) {
-    span.innerHTML = "obésité sévere";
+    span.innerHTML = "Vous êtes en obésité sévere";
     cercle.style.backgroundColor = "red";
   } else if (imc > 40) {
-    span.innerHTML = "obésité morbide";
+    span.innerHTML = "Vous êtes en obésité morbide";
     cercle.style.backgroundColor = "red";
   }
 }
